@@ -1,0 +1,17 @@
+/* english multiple-choice game */
+.btn-engselect{
+    text-align: center;
+}
+#games .create-table{
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    background-color: #2a4248;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+    font-weight: bold;
+    font-size: 20px;
+}
