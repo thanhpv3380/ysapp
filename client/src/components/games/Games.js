@@ -39,7 +39,7 @@ function Games(props) {
                             </a>
                         </div>
                         <div class="col-sm-6 col-md-4 mb-3 filter-item Pro CSS">
-                            <a href="#" class="card h-100" style={{ backgroundColor: "#311b92" }}>
+                            <a href="/games/caro" class="card h-100" style={{ backgroundColor: "#311b92" }}>
                                 <img class="card-img-top" src={CaroPoster} height="230px" alt="Caro thumbnail" />
                                 <div class="card-body">
                                     <div class="caption">

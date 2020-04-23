@@ -7,7 +7,7 @@ import Register from './components/register/Register';
 
 import Games from './components/games/Games';
 import EnglishMC from './components/games/englishmc/EnglishMC';
-
+import Caro from './components/games/caro/Caro';
 class App extends Component {
     render() {
         return (
@@ -17,6 +17,7 @@ class App extends Component {
                     <Route exact path="/register" component={Register} />
                     <Route exact path="/games" component={Games} /> 
                     <Route exact path="/games/englishmc" component={EnglishMC} /> 
+                    <Route exact path="/games/caro" component={Caro} /> 
                 </div>
             </Router>
         )
